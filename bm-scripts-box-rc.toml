@@ -1,0 +1,29 @@
+[bmscriptsbox.info]
+id = "597f4a0c-4eec-4e3f-8950-d726c7eca16f"              
+name = "环境变量"                                    
+desc = "打开Windows环境变量设置窗口、通过不忙脚本盒子的右键、快捷键触发可快速设置环境变量"                                  
+version = "0.1.0"                                         
+
+[bmscriptsbox.runtime]
+language = "bat"
+language_version = ">=0.0.0"                  
+entry = "EnvVariables.cmd"                   
+terminal = "never"                       
+
+[bmscriptsbox.triggers.context_menu]
+enabled = true
+targets = ["background"]
+
+
+[bmscriptsbox.triggers.shortcut]
+enabled = true
+input_type = ""
+
+
+
+
+ 
+
+
+
+
